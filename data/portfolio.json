@@ -1,0 +1,407 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Healthcare Management System",
+      "category": "ERP Verticals",
+      "client": "Private Healthcare Group",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "QWeb"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800",
+      "description": "Full-suite healthcare ERP covering patient registration, appointment scheduling, diagnosis records, billing, pharmacy inventory, and insurance claim management — all tightly integrated with Odoo's accounting module."
+    },
+    {
+      "id": 2,
+      "title": "Dental Clinic Management",
+      "category": "ERP Verticals",
+      "client": "Smile Care Dental Group",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "OWL"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=800",
+      "description": "Custom Odoo module for dental practices featuring patient tooth charts, treatment planning, appointment slots, invoice generation per treatment, and a waiting-room dashboard built with OWL components."
+    },
+    {
+      "id": 4,
+      "title": "Jewellery Management System",
+      "category": "ERP Verticals",
+      "client": "Al-Noor Jewellery",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "XML"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800",
+      "description": "Specialised inventory and POS extension for jewellery retail tracking gold weight, purity karat, making charges, and live gold rate integration. Includes custom product variant handling and RFID tag support."
+    },
+    {
+      "id": 5,
+      "title": "Construction Project Management",
+      "category": "ERP Verticals",
+      "client": "BuildRight Construction Co.",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "Gantt"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800",
+      "description": "Project ERP for construction companies covering site budgeting, material requisition, subcontractor billing, BOQ (bill of quantities) management, progress milestones, and Gantt-based project timelines."
+    },
+    {
+      "id": 10,
+      "title": "WhatsApp Business Integration",
+      "category": "Integrations",
+      "client": "Multi-client Deployment",
+      "software": [
+        "Python",
+        "WhatsApp Cloud API",
+        "Odoo v17",
+        "JSON"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?auto=format&fit=crop&q=80&w=800",
+      "description": "WhatsApp Cloud API integration with Odoo for sending automated order confirmations, invoice links, delivery notifications, and appointment reminders directly to customers. Includes message template management and delivery status tracking."
+    },
+    {
+      "id": 8,
+      "title": "Shopify ↔ Odoo Integration",
+      "category": "Integrations",
+      "client": "NextGen E-Commerce",
+      "software": [
+        "Python",
+        "Shopify REST API",
+        "Odoo v17",
+        "Webhooks"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800",
+      "description": "Bidirectional sync bridge between Shopify storefront and Odoo backend. Handles real-time product catalog sync, stock level updates, order import with tax mapping, and automated invoice + delivery order creation."
+    },
+    {
+      "id": 6,
+      "title": "Beauty Clinic Management",
+      "category": "ERP Verticals",
+      "client": "Glow Aesthetics Clinic",
+      "software": [
+        "Python",
+        "Odoo v16",
+        "PostgreSQL",
+        "OWL"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&q=80&w=800",
+      "description": "Full clinic management system for beauty and aesthetics centers. Covers service package management, therapist scheduling, session tracking, product inventory, loyalty points, and customer before/after image records."
+    },
+    {
+      "id": 3,
+      "title": "Veterinary Management System",
+      "category": "ERP Verticals",
+      "client": "PetCare Veterinary Clinics",
+      "software": [
+        "Python",
+        "Odoo v16",
+        "PostgreSQL",
+        "QWeb"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&q=80&w=800",
+      "description": "End-to-end veterinary ERP covering animal patient profiles, vet appointment scheduling, vaccination records, prescription printing, boarding management, and automated reminders via SMS."
+    },
+    {
+      "id": 7,
+      "title": "Fleet Management System",
+      "category": "ERP Verticals",
+      "client": "Gulf Fleet Logistics",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "REST APIs"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=800",
+      "description": "Extended Odoo Fleet module with GPS tracker integration, automated service reminders, fuel log management, driver assignment workflows, traffic fine tracking, and insurance renewal alerts."
+    },
+    {
+      "id": 9,
+      "title": "WooCommerce ↔ Odoo Integration",
+      "category": "Integrations",
+      "client": "Retail Hub Arabia",
+      "software": [
+        "Python",
+        "WooCommerce API",
+        "Odoo v16",
+        "Webhooks"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1563013544-824ae1d704d3?auto=format&fit=crop&q=80&w=800",
+      "description": "Seamless WooCommerce to Odoo connector synchronising products, inventory, customer data, and orders. Includes configurable field mapping, error-retry queues, and a live sync dashboard for operations teams."
+    },
+    {
+      "id": 11,
+      "title": "Catering Management System",
+      "category": "ERP Verticals",
+      "client": "Grand Events Catering",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "QWeb"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=800",
+      "description": "Event catering ERP covering menu planning, client quotation, kitchen production scheduling, ingredient procurement, event crew assignment, and post-event invoicing with per-head cost breakdowns."
+    },
+    {
+      "id": 12,
+      "title": "Co-working Space Management",
+      "category": "ERP Verticals",
+      "client": "HUB Cowork Arabia",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "OWL"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+      "description": "Complete co-working space platform covering hot desk and private office bookings, membership plans, meeting room reservations, access control integration, monthly billing, and utilisation analytics dashboards."
+    },
+    {
+      "id": 13,
+      "title": "Co-living Management System",
+      "category": "ERP Verticals",
+      "client": "Urban Stay Properties",
+      "software": [
+        "Python",
+        "Odoo v16",
+        "PostgreSQL",
+        "QWeb"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=800",
+      "description": "Property management ERP tailored for co-living businesses. Handles tenant onboarding, room allocation, rent collection, utility billing, maintenance requests, lease renewals, and vacancy reporting."
+    },
+    {
+      "id": 14,
+      "title": "Hospital Management System",
+      "category": "ERP Verticals",
+      "client": "Al-Shifa Medical Centre",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "OWL"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=800",
+      "description": "Large-scale hospital ERP integrating in-patient and out-patient management, ward bed allocation, lab test ordering, nursing workflows, theatre scheduling, discharge summaries, and insurance pre-authorisation."
+    },
+    {
+      "id": 15,
+      "title": "Courier & Delivery Management",
+      "category": "ERP Verticals",
+      "client": "Swift Courier Services",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "REST APIs"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+      "description": "Courier logistics platform covering shipment booking, waybill generation, route optimisation, last-mile delivery tracking, COD reconciliation, and automated SMS/WhatsApp notifications to senders and recipients."
+    },
+    {
+      "id": 16,
+      "title": "University Management System",
+      "category": "ERP Verticals",
+      "client": "National University Consortium",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "QWeb"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=800",
+      "description": "Comprehensive higher-education ERP covering student admissions, course enrolment, timetable scheduling, exam management, grade publishing, fee collection, library management, and academic reporting."
+    },
+    {
+      "id": 17,
+      "title": "School Management System",
+      "category": "ERP Verticals",
+      "client": "Horizon International School",
+      "software": [
+        "Python",
+        "Odoo v16",
+        "PostgreSQL",
+        "OWL"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "description": "K-12 school ERP handling student enrollment, class scheduling, attendance, teacher payroll, fee invoicing, parent portal, exam results, and bus route management — all integrated in a single Odoo instance."
+    },
+    {
+      "id": 18,
+      "title": "Transport Management System",
+      "category": "ERP Verticals",
+      "client": "CrossBorder Logistics Group",
+      "software": [
+        "Python",
+        "Odoo v17",
+        "PostgreSQL",
+        "GPS APIs"
+      ],
+      "videoUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=800",
+      "description": "End-to-end transport ERP managing freight bookings, vehicle dispatch, trip planning, driver management, fuel consumption tracking, real-time GPS integration, customs documentation, and automated billing."
+    }
+  ],
+  "categories": [
+    "All",
+    "ERP Verticals",
+    "Integrations"
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Odoo Custom Development",
+      "description": "Creating custom models, fields, wizards, security groups, and automated workflows. Fully compliant with Odoo's OOP structure and migration guidelines.",
+      "accent": "#714B67",
+      "skills": [
+        "Python",
+        "PostgreSQL",
+        "XML Views",
+        "Odoo ORM"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "API & System Integration",
+      "description": "Building bridges between Odoo and external systems like payment gateways, biometric devices, WooCommerce, Shopify, and shipping carriers.",
+      "accent": "#3776AB",
+      "skills": [
+        "REST APIs",
+        "XML-RPC",
+        "JSON-RPC",
+        "Webhooks"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "OWL Frontend Customization",
+      "description": "Extending Odoo's web client, POS, or website front-end using the OWL framework. Building reactive widgets, custom components, and fast interfaces.",
+      "accent": "#FFE873",
+      "skills": [
+        "JavaScript (OWL)",
+        "QWeb Templates",
+        "SCSS",
+        "JS Widgets"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Performance Tuning & DevOps",
+      "description": "Database profiling, raw query optimization, index tuning, backup configuration, and deploying Odoo clusters via Docker and Nginx on AWS/Odoo.sh.",
+      "accent": "#10b981",
+      "skills": [
+        "PostgreSQL",
+        "Docker",
+        "Linux/Nginx",
+        "Odoo.sh"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "PYTHON & ODOO ORM",
+      "pct": 95
+    },
+    {
+      "id": 2,
+      "name": "POSTGRESQL DATABASE",
+      "pct": 90
+    },
+    {
+      "id": 3,
+      "name": "XML & VIEW DEFINITIONS",
+      "pct": 92
+    },
+    {
+      "id": 4,
+      "name": "OWL & JAVASCRIPT",
+      "pct": 80
+    }
+  ],
+  "toolkit": [
+    {
+      "id": 1,
+      "name": "Python",
+      "cat": "Backend Language",
+      "level": "Expert"
+    },
+    {
+      "id": 2,
+      "name": "Odoo Framework",
+      "cat": "ERP Development",
+      "level": "Expert"
+    },
+    {
+      "id": 3,
+      "name": "PostgreSQL",
+      "cat": "Database Engine",
+      "level": "Expert"
+    },
+    {
+      "id": 4,
+      "name": "JavaScript (OWL)",
+      "cat": "Frontend Framework",
+      "level": "Advanced"
+    },
+    {
+      "id": 5,
+      "name": "XML & QWeb",
+      "cat": "Odoo Templating",
+      "level": "Expert"
+    },
+    {
+      "id": 6,
+      "name": "Docker",
+      "cat": "DevOps / Sandbox",
+      "level": "Advanced"
+    },
+    {
+      "id": 7,
+      "name": "Git & GitHub",
+      "cat": "Version Control",
+      "level": "Expert"
+    },
+    {
+      "id": 8,
+      "name": "Linux & Nginx",
+      "cat": "Server Deployment",
+      "level": "Advanced"
+    },
+    {
+      "id": 9,
+      "name": "REST / SOAP APIs",
+      "cat": "System Integrations",
+      "level": "Expert"
+    }
+  ]
+}
