@@ -77,7 +77,7 @@ export default function Contact() {
               <p className="text-[11px] font-heading font-black uppercase tracking-[0.25em] text-brand-purple mb-4">
                 03 / Connection Socket
               </p>
-              <h2 className="text-3xl md:text-5xl font-display font-black text-zinc-100 tracking-tight uppercase leading-none mb-6">
+              <h2 className="text-3xl md:text-4xl font-display font-black text-zinc-100 tracking-tight uppercase leading-none mb-6">
                 Establish<br />Connection
               </h2>
               <p className="text-zinc-400 text-sm leading-relaxed font-sans">
