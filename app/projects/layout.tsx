@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const BASE_URL = "https://rafiprotfolio2nd.vercel.app";
+const BASE_URL = "https://itsmerafi.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
