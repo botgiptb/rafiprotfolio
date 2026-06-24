@@ -4,6 +4,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import CustomCursor from "@/components/CustomCursor";
 import Preloader from "@/components/Preloader";
 import { Terminal, Send, Cpu } from "lucide-react";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const syne = Syne({
@@ -131,6 +132,7 @@ export default function RootLayout({
               </div>
             </div>
           </footer>
+          <Analytics />
         </SmoothScroll>
       </body>
     </html>
