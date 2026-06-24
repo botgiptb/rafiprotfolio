@@ -110,7 +110,7 @@ Status: Ready to deploy code to production.`,
       output: `>>> cat skills.json
 {
   "languages": ["Python", "JavaScript", "SQL", "Odoo ORM"],
-  "frameworks": ["Odoo v14-v18", "OWL (Odoo Web Library)"],
+  "frameworks": ["Odoo v14-v19", "OWL (Odoo Web Library)"],
   "database": ["PostgreSQL (Query Tuning)"],
   "deployment": ["Docker", "Odoo.sh", "Linux", "AWS"]
 }`,
@@ -120,7 +120,7 @@ Status: Ready to deploy code to production.`,
           &nbsp;&nbsp;<span className="text-sky-400">"languages"</span>: [<span className="text-teal-300">"Python"</span>, <span className="text-teal-300">"JavaScript"</span>, <span className="text-teal-300">"SQL"</span>, <span className="text-teal-300">"HTML5"</span>, <span className="text-teal-300">"CSS3"</span>],<br />
           &nbsp;&nbsp;<span className="text-sky-400">"erp_framework"</span>: &#123;<br />
           &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-sky-400">"name"</span>: <span className="text-teal-300">"Odoo ERP"</span>,<br />
-          &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-sky-400">"versions"</span>: [<span className="text-teal-300">"v14"</span>, <span className="text-teal-300">"v15"</span>, <span className="text-teal-300">"v16"</span>, <span className="text-teal-300">"v17"</span>, <span className="text-teal-300">"v18"</span>],<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-sky-400">"versions"</span>: [<span className="text-teal-300">"v14"</span>, <span className="text-teal-300">"v15"</span>, <span className="text-teal-300">"v16"</span>, <span className="text-teal-300">"v17"</span>, <span className="text-teal-300">"v18"</span>, <span className="text-teal-300">"v19"</span>],<br />
           &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-sky-400">"expertise"</span>: [<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-teal-300">"Custom Module Architecture"</span>,<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-teal-300">"Odoo ORM & Models"</span>,<br />

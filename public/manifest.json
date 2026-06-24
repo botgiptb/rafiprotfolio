@@ -1,0 +1,16 @@
+{
+  "name": "Mohammed Rafi M | Odoo Developer",
+  "short_name": "M.RAFI_",
+  "description": "Python Odoo Developer & ERP Architect — custom modules, PostgreSQL optimization, API integrations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070709",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

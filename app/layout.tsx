@@ -25,22 +25,165 @@ const inter = Inter({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+const BASE_URL = "https://rafiprotfolio2nd.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Mohammad Rafi M | Python Odoo Developer & ERP Architect",
+  metadataBase: new URL(BASE_URL),
+
+  // ── Core ──────────────────────────────────────────────────────────
+  title: {
+    default: "Mohammed Rafi M | Python Odoo Developer & ERP Architect",
+    template: "%s | Mohammed Rafi M",
+  },
   description:
-    "Portfolio of Mohammad Rafi M, Python Odoo Developer with 3+ years of experience specializing in custom Odoo modules, PostgreSQL optimization, API integrations, and OWL frontend development.",
+    "Portfolio of Mohammed Rafi M, a Python Odoo Developer & ERP Architect with 3+ years of experience. Specializing in custom Odoo modules (v14–v19), PostgreSQL optimization, third-party API integrations, and OWL frontend development.",
+
+  keywords: [
+    "Mohammed Rafi M",
+    "Odoo Developer",
+    "Python Odoo Developer",
+    "ERP Architect",
+    "Custom Odoo Modules",
+    "Odoo ERP",
+    "PostgreSQL Developer",
+    "OWL Odoo",
+    "Odoo v17",
+    "Odoo v18",
+    "Odoo v19",
+    "Odoo Freelancer",
+    "Odoo Developer India",
+    "Kerala Odoo Developer",
+    "ERP Integration",
+    "API Integration Odoo",
+  ],
+
+  authors: [{ name: "Mohammed Rafi M", url: BASE_URL }],
+  creator: "Mohammed Rafi M",
+  publisher: "Mohammed Rafi M",
+
+  // ── Canonical & Robots ────────────────────────────────────────────
+  alternates: { canonical: BASE_URL },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+
+  // ── Open Graph ────────────────────────────────────────────────────
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: BASE_URL,
+    siteName: "Mohammed Rafi M — Odoo Developer Portfolio",
+    title: "Mohammed Rafi M | Python Odoo Developer & ERP Architect",
+    description:
+      "3+ years building enterprise Odoo ERP systems. Custom modules, PostgreSQL optimization, OWL frontend, API integrations. Based in Kerala, India — available remote.",
+    images: [
+      {
+        url: "/rafi_profile.png",
+        width: 1200,
+        height: 630,
+        alt: "Mohammed Rafi M — Python Odoo Developer & ERP Architect",
+      },
+    ],
+  },
+
+  // ── Twitter / X Card ─────────────────────────────────────────────
+  twitter: {
+    card: "summary_large_image",
+    title: "Mohammed Rafi M | Python Odoo Developer & ERP Architect",
+    description:
+      "3+ years building enterprise Odoo ERP systems. Custom modules, PostgreSQL optimization, OWL frontend. Kerala, India — available remote.",
+    images: ["/rafi_profile.png"],
+    creator: "@mohammedrafim",
+  },
+
+  // ── Icons & Manifest ─────────────────────────────────────────────
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
+  manifest: "/manifest.json",
+
+  // ── Verification (add your keys once confirmed) ───────────────────
+  // verification: {
+  //   google: "your-google-site-verification-code",
+  // },
 };
+
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": `${BASE_URL}/#person`,
+        name: "Mohammed Rafi M",
+        jobTitle: "Python Odoo Developer & ERP Architect",
+        description:
+          "Python Odoo Developer with 3+ years of experience specializing in custom Odoo modules, PostgreSQL optimization, API integrations, and OWL frontend development.",
+        url: BASE_URL,
+        email: "rafimdev@gmail.com",
+        telephone: "+917736205024",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Pattambi",
+          addressRegion: "Kerala",
+          addressCountry: "IN",
+        },
+        knowsAbout: [
+          "Odoo ERP",
+          "Python",
+          "PostgreSQL",
+          "OWL (Odoo Web Library)",
+          "ERP Architecture",
+          "API Integration",
+          "Custom Module Development",
+        ],
+        sameAs: [
+          "https://www.linkedin.com/in/mohammedrafim",
+          "https://github.com/botgiptb",
+        ],
+        image: {
+          "@type": "ImageObject",
+          url: `${BASE_URL}/rafi_profile.png`,
+        },
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${BASE_URL}/#website`,
+        url: BASE_URL,
+        name: "Mohammed Rafi M — Odoo Developer Portfolio",
+        description:
+          "Portfolio of Mohammed Rafi M, Python Odoo Developer & ERP Architect",
+        author: { "@id": `${BASE_URL}/#person` },
+        inLanguage: "en-IN",
+      },
+    ],
+  };
+
   return (
     <html
       lang="en"
       className={`${syne.variable} ${spaceGrotesk.variable} ${inter.variable} h-full antialiased scroll-smooth`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-dark-bg text-zinc-100 selection:bg-brand-purple selection:text-white font-sans">
         <SmoothScroll>
           <Preloader />
@@ -114,7 +257,7 @@ export default function RootLayout({
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/mohammedrafim?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-zinc-300 transition-colors"

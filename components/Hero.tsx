@@ -94,7 +94,7 @@ export default function Hero() {
   useEffect(() => {
     const rawLogs = [
       "python3 odoo-bin -c odoo.conf",
-      "INFO: odoo: Odoo version 17.0 Community Edition starting...",
+      "INFO: odoo: Odoo version 19.0 Community Edition starting...",
       "INFO: odoo: Loading addons database modules...",
       "INFO: odoo.modules.loading: Loading module sale (28/86)",
       "INFO: odoo.modules.loading: Loading module stock (45/86)",

@@ -7,7 +7,7 @@
       "client": "Smile Care Dental Group",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "OWL"
       ],
@@ -22,7 +22,7 @@
       "client": "Private Healthcare Group",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "QWeb"
       ],
@@ -37,7 +37,7 @@
       "client": "Al-Noor Jewellery",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "XML"
       ],
@@ -52,7 +52,7 @@
       "client": "BuildRight Construction Co.",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "Gantt"
       ],
@@ -68,7 +68,7 @@
       "software": [
         "Python",
         "WhatsApp Cloud API",
-        "Odoo v17",
+        "Odoo v19",
         "JSON"
       ],
       "videoUrl": "",
@@ -83,7 +83,7 @@
       "software": [
         "Python",
         "Shopify REST API",
-        "Odoo v17",
+        "Odoo v19",
         "Webhooks"
       ],
       "videoUrl": "",
@@ -97,7 +97,7 @@
       "client": "Glow Aesthetics Clinic",
       "software": [
         "Python",
-        "Odoo v16",
+        "Odoo v19",
         "PostgreSQL",
         "OWL"
       ],
@@ -112,7 +112,7 @@
       "client": "PetCare Veterinary Clinics",
       "software": [
         "Python",
-        "Odoo v16",
+        "Odoo v19",
         "PostgreSQL",
         "QWeb"
       ],
@@ -127,7 +127,7 @@
       "client": "Gulf Fleet Logistics",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "REST APIs"
       ],
@@ -143,7 +143,7 @@
       "software": [
         "Python",
         "WooCommerce API",
-        "Odoo v16",
+        "Odoo v19",
         "Webhooks"
       ],
       "videoUrl": "",
@@ -157,7 +157,7 @@
       "client": "Grand Events Catering",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "QWeb"
       ],
@@ -172,7 +172,7 @@
       "client": "HUB Cowork Arabia",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "OWL"
       ],
@@ -187,7 +187,7 @@
       "client": "Urban Stay Properties",
       "software": [
         "Python",
-        "Odoo v16",
+        "Odoo v19",
         "PostgreSQL",
         "QWeb"
       ],
@@ -202,7 +202,7 @@
       "client": "Al-Shifa Medical Centre",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "OWL"
       ],
@@ -217,7 +217,7 @@
       "client": "Swift Courier Services",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "REST APIs"
       ],
@@ -232,7 +232,7 @@
       "client": "National University Consortium",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "QWeb"
       ],
@@ -247,7 +247,7 @@
       "client": "Horizon International School",
       "software": [
         "Python",
-        "Odoo v16",
+        "Odoo v19",
         "PostgreSQL",
         "OWL"
       ],
@@ -262,7 +262,7 @@
       "client": "CrossBorder Logistics Group",
       "software": [
         "Python",
-        "Odoo v17",
+        "Odoo v19",
         "PostgreSQL",
         "GPS APIs"
       ],

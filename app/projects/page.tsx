@@ -82,7 +82,7 @@ export default function ProjectsPage() {
           {/* Stats row */}
           <div className="flex flex-wrap gap-8 mt-10">
             {[
-              { value: "17+", label: "Projects Delivered" },
+              { value: "17+", label: "Modules Developed" },
               { value: "10+", label: "Industry Sectors" },
               { value: "3+", label: "Years Experience" },
               { value: "100%", label: "Client Satisfaction" },
