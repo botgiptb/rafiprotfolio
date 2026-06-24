@@ -358,7 +358,7 @@ payment_bridge_api  = "Secure gateway checking double-spend attempts"`,
             </div>
 
             {/* Code lines container */}
-            <div className="p-6 flex-grow flex items-start gap-4 overflow-x-auto min-h-[300px]">
+            <div data-lenis-prevent className="p-6 flex-grow flex items-start gap-4 overflow-x-auto overscroll-contain min-h-[300px]">
               
               {/* Line numbers column */}
               <div className="text-right text-zinc-600 font-mono text-xs leading-relaxed select-none border-r border-white/5 pr-4 flex flex-col">
@@ -392,7 +392,7 @@ payment_bridge_api  = "Secure gateway checking double-spend attempts"`,
                       Clear
                     </button>
                   </div>
-                  <div className="p-5 max-h-[140px] overflow-y-auto flex flex-col gap-1 select-none">
+                  <div data-lenis-prevent className="p-5 max-h-[140px] overflow-y-auto overscroll-contain flex flex-col gap-1 select-none">
                     {terminalLogs.map((log, i) => (
                       <pre key={i} className="whitespace-pre-wrap text-left">{log}</pre>
                     ))}
