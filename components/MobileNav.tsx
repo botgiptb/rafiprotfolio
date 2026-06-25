@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "#services",  label: "Services" },
-  { href: "#portfolio", label: "Portfolio" },
+  { href: "#portfolio", label: "Projects" },
   { href: "#about",     label: "About" },
   { href: "#contact",   label: "Contact" },
 ];
@@ -80,7 +80,7 @@ export default function MobileNav() {
                   onClick={() => setOpen(false)}
                   className="flex items-center justify-center gap-2 w-full px-4 py-3.5 rounded-xl bg-brand-purple text-white text-sm font-heading font-black uppercase tracking-wider transition-all hover:bg-brand-purple/90"
                 >
-                  Hire Me
+                  Get in Touch
                 </a>
               </div>
             </motion.nav>

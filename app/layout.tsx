@@ -154,7 +154,7 @@ export default function RootLayout({
         ],
         sameAs: [
           "https://www.linkedin.com/in/mohammedrafim",
-          "https://github.com/botgiptb",
+          "https://github.com/mohammedrafim",
         ],
         image: {
           "@type": "ImageObject",
@@ -214,17 +214,17 @@ export default function RootLayout({
               {/* Desktop Nav */}
               <nav aria-label="Main navigation" className="hidden md:flex gap-8 text-xs font-heading font-bold uppercase tracking-widest text-zinc-400">
                 <a href="#services" className="hover:text-zinc-100">Services</a>
-                <a href="#portfolio" className="hover:text-zinc-100">Portfolio</a>
+                <a href="#portfolio" className="hover:text-zinc-100">Projects</a>
                 <a href="#about" className="hover:text-zinc-100">About</a>
                 <a href="#contact" className="hover:text-zinc-100">Contact</a>
               </nav>
 
-              {/* Desktop Hire Me */}
+              {/* Desktop Get in Touch */}
               <a
                 href="#contact"
                 className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-xs font-heading font-bold uppercase tracking-wider text-zinc-300 hover:text-zinc-100 hover:bg-zinc-800 transition-all"
               >
-                <span>Hire Me</span>
+                <span>Get in Touch</span>
                 <Send className="w-3.5 h-3.5" />
               </a>
 
@@ -246,7 +246,7 @@ export default function RootLayout({
 
               <nav aria-label="Social links" className="flex gap-6 font-heading font-bold uppercase tracking-widest text-zinc-500">
                 <a
-                  href="https://github.com/botgiptb"
+                  href="https://github.com/mohammedrafim"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Mohammed Rafi M on GitHub"
