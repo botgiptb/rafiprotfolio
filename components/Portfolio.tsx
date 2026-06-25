@@ -38,7 +38,11 @@ export default function Portfolio() {
   ).slice(0, 6);
 
   return (
-    <section id="portfolio" className="relative py-28 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden">
+    <section
+      id="portfolio"
+      aria-label="Portfolio — Projects & Solutions"
+      className="relative py-28 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden"
+    >
       {/* Background radial glow */}
       <div className="absolute top-1/2 right-0 w-[500px] h-[350px] bg-brand-purple/5 blur-[120px] pointer-events-none" />
 
@@ -62,6 +66,8 @@ export default function Portfolio() {
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
+                aria-label={`Filter projects by ${category}`}
+                aria-pressed={activeCategory === category}
                 className="relative px-4 py-2 rounded-lg text-xs font-heading font-bold uppercase tracking-wider text-zinc-400 hover:text-zinc-100 transition-colors duration-300 cursor-pointer"
               >
                 {activeCategory === category && (
@@ -216,9 +222,9 @@ export default function Portfolio() {
                 {/* Title */}
                 <div>
                   <span className="text-[10px] font-mono text-brand-cyan uppercase tracking-widest">Project Form View</span>
-                  <h1 className="text-xl md:text-2xl font-heading font-black text-zinc-100 tracking-tight mt-1">
+                  <h2 className="text-xl md:text-2xl font-heading font-black text-zinc-100 tracking-tight mt-1">
                     {selectedProject.title}
-                  </h1>
+                  </h2>
                 </div>
 
                 {/* Odoo Sheet Grid fields */}

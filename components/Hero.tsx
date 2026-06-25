@@ -120,7 +120,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#070709] py-24 px-4 md:px-8 border-b border-dark-border">
+    <section
+      aria-label="Hero — Mohammed Rafi M, Python Odoo Developer"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#070709] py-24 px-4 md:px-8 border-b border-dark-border"
+    >
       {/* Particle canvas */}
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full pointer-events-none opacity-40 z-0" />
 

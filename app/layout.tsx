@@ -212,7 +212,7 @@ export default function RootLayout({
               </a>
 
               {/* Desktop Nav */}
-              <nav className="hidden md:flex gap-8 text-xs font-heading font-bold uppercase tracking-widest text-zinc-400">
+              <nav aria-label="Main navigation" className="hidden md:flex gap-8 text-xs font-heading font-bold uppercase tracking-widest text-zinc-400">
                 <a href="#services" className="hover:text-zinc-100">Services</a>
                 <a href="#portfolio" className="hover:text-zinc-100">Portfolio</a>
                 <a href="#about" className="hover:text-zinc-100">About</a>
@@ -244,20 +244,22 @@ export default function RootLayout({
                 reserved.
               </span>
 
-              <div className="flex gap-6 font-heading font-bold uppercase tracking-widest text-zinc-500">
+              <nav aria-label="Social links" className="flex gap-6 font-heading font-bold uppercase tracking-widest text-zinc-500">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/botgiptb"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Mohammed Rafi M on GitHub"
                   className="hover:text-zinc-300 transition-colors"
                 >
                   GitHub
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/mohammedrafim?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                  href="https://www.linkedin.com/in/mohammedrafim"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Mohammed Rafi M on LinkedIn"
                   className="hover:text-zinc-300 transition-colors"
                 >
                   LinkedIn
@@ -270,7 +272,7 @@ export default function RootLayout({
                   <Cpu className="w-3.5 h-3.5" />
                   Odoo
                 </a>
-              </div>
+              </nav>
             </div>
           </footer>
           <Analytics />

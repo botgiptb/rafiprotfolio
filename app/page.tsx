@@ -9,9 +9,11 @@ import Stats from "@/components/Stats";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 
+// SEO: page.tsx intentionally uses a fragment — the <main> element is
+// declared in layout.tsx to maintain a single landmark per page.
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <Marquee />
       <Services />
@@ -22,6 +24,6 @@ export default function Home() {
       {/* <Testimonials /> */}
       <About />
       <Contact />
-    </main>
+    </>
   );
 }

@@ -32,7 +32,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="relative py-20 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden">
+    <section aria-label="Professional Statistics" className="relative py-20 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden">
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stats.map((s, i) => (

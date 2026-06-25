@@ -33,7 +33,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="relative py-28 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden">
+    <section id="services" aria-label="Services — Solutions & Capabilities" className="relative py-28 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden">
       {/* Background ambient glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-brand-purple/5 blur-[140px] pointer-events-none" />
 

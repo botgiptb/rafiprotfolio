@@ -81,7 +81,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="relative py-20 md:py-28 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden">
+    <section id="contact" aria-label="Contact — Establish Connection" className="relative py-20 md:py-28 bg-[#070709] px-4 md:px-8 border-t border-dark-border overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 right-0 -translate-y-1/2 w-80 h-80 rounded-full bg-brand-cyan/4 blur-[110px] pointer-events-none" />
 
